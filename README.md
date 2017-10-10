@@ -1,5 +1,14 @@
 # css-表单样式
 
+input去除默认样式
+
+元素 input{
+    background:none;
+    border:none;
+    -webkit-appearance:none;
+    border-radius:0;   /*去除ios中圆角*/
+    outline:none;
+}
 /*======覆盖苹果手机input提交样式======*/
 
 input[type="submit"],input[type="reset"],input[type="button"]{ -webkit-appearance:none;}
